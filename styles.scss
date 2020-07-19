@@ -1,0 +1,49 @@
+@import "./reset.scss";
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #050014;
+    background-image: url(http://www.transparenttextures.com/patterns/black-thread.png);
+    height: 100vh;
+    animation: 15s linear slide infinite;
+    max-width: none;
+}
+
+@keyframes slide {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 0 400px;
+    }
+}
+
+h1 {
+    font-size: 4.5rem;
+    text-align: center;
+    margin: 0 10px 45px;
+    padding-top: 20px;
+}
+
+// Search styles
+.search-wrapper {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#search-input {
+    margin: 10px;
+}
+
+// Images styles
+.images-wrapper {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
