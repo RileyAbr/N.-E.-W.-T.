@@ -182,6 +182,35 @@ h1 {
   text-align: center;
 }
 
+.ghost-text {
+  -webkit-animation: 7s ease-in-out fader infinite;
+          animation: 7s ease-in-out fader infinite;
+}
+
+@-webkit-keyframes fader {
+  from {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fader {
+  from {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 #search-input {
   margin: 10px;
 }

@@ -37,6 +37,22 @@ h1 {
     text-align: center;
 }
 
+.ghost-text {
+    animation: 7s ease-in-out fader infinite;
+
+    @keyframes fader {
+        from {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+}
+
 #search-input {
     margin: 10px;
 }
