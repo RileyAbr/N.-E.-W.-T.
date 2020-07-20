@@ -183,8 +183,8 @@ h1 {
 }
 
 .ghost-text {
-  -webkit-animation: 7s ease-in-out fader infinite;
-          animation: 7s ease-in-out fader infinite;
+  -webkit-animation: 8s ease-in-out fader infinite;
+          animation: 8s ease-in-out fader infinite;
 }
 
 @-webkit-keyframes fader {
@@ -211,7 +211,7 @@ h1 {
   }
 }
 
-#search-input {
+#code-input {
   margin: 10px;
 }
 
@@ -231,5 +231,14 @@ h1 {
 img {
   margin: 20px;
   display: none;
+}
+
+#finale-message {
+  font-size: 2.5rem;
+  display: none;
+  margin: 20px auto;
+  width: 80%;
+  text-align: center;
+  line-height: 1.2;
 }
 /*# sourceMappingURL=styles.css.map */

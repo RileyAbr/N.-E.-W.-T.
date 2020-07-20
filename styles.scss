@@ -38,7 +38,7 @@ h1 {
 }
 
 .ghost-text {
-    animation: 7s ease-in-out fader infinite;
+    animation: 8s ease-in-out fader infinite;
 
     @keyframes fader {
         from {
@@ -53,7 +53,7 @@ h1 {
     }
 }
 
-#search-input {
+#code-input {
     margin: 10px;
 }
 
@@ -67,4 +67,14 @@ h1 {
 img {
     margin: 20px;
     display: none;
+}
+
+// Victory message
+#finale-message {
+    font-size: 2.5rem;
+    display: none;
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+    line-height: 1.2;
 }
