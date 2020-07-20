@@ -14,12 +14,15 @@ const handleFormSubmit = (event) => {
     if (codes.includes(codeInputValue)) {
         for (let i = 0; i < codes.length; i++) {
             if (codeInputValue === codes[i]) {
-                alert(`secretCode${i} discovered`);
-                document.getElementById(`secret-image-${i}`);
+                alert(`Secret Code #${i} discovered`);
+
+                document
+                    .getElementById(`secret-image-${i + 1}`)
+                    .style.setProperty("display", "block");
             }
         }
     } else {
-        alert(`This code is invalid`);
+        alert(`This code is invalid. Please try again`);
     }
 };
 
