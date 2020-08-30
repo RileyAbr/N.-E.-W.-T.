@@ -85,3 +85,27 @@ img {
     text-align: center;
     line-height: 1.2;
 }
+
+footer {
+    color: white;
+    background-color: black;
+    line-height: 1.2rem;
+    margin-top: 15px;
+    border-top: solid 1px #8cbd18;
+    padding: 8px 0px;
+    display: flex;
+    flex-flow: row wrap;
+    -moz-box-pack: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+footer > a {
+    color: #8cbd18;
+    &:hover,
+    &:focus {
+        color: #107c10;
+    }
+}
