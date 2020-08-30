@@ -135,7 +135,7 @@ html {
 
 body {
   background-color: #050014;
-  background-image: url(http://www.transparenttextures.com/patterns/black-thread.png);
+  background-image: url(./img/black-thread.png);
   height: 100vh;
   -webkit-animation: 15s linear slide infinite;
           animation: 15s linear slide infinite;
@@ -231,6 +231,13 @@ h1 {
 img {
   margin: 20px;
   display: none;
+}
+
+.problem-wrapper {
+  font-size: 1.25rem;
+  line-height: 1.25;
+  width: 60%;
+  margin: 10px auto;
 }
 
 #finale-message {

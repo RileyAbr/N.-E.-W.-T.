@@ -1,6 +1,6 @@
 // Scrambled codes to help keep track of what all is being done
 const scrambledCodes = [
-    "N3M7KEU", // Given in person
+    "N3M7KEU", // Given
     "PCE7R6U", // Caesar cipher with 25 as key
     "", // ASL
     "--... --- -.... -..- --.. . -..-", // Morse code
